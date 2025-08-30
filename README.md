@@ -10,13 +10,13 @@ querySelectorAll("selector"): Returns all matching elements (NodeList)
 
 
 ## 2. How do you create and insert a new element into the DOM?
-Step 1: I will select specific div from the DOM Ex: let container = document.getElementById("box-container");
+⮕ Step 1: I will select specific div from the DOM Ex: let container = document.getElementById("box-container");
 
-Step 2: then I will create new new element Ex: let newElement = document.createElement("div")
+⮕ Step 2: then I will create new new element Ex: let newElement = document.createElement("div")
 
-Step 3: I will create innerHTML in newElement Ex: newElement.innerHTML = <div><h1>This is new text</h1></div> 
+⮕ Step 3: I will create innerHTML in newElement Ex: newElement.innerHTML = <div><h1>This is new text</h1></div> 
 
-Step 4: I will append this newElement into the container Ex: container.append(newElement)
+⮕ Step 4: I will append this newElement into the container Ex: container.append(newElement)
 
 
 ## 3. What is Event Bubbling and how does it work?
@@ -31,7 +31,7 @@ This is useful because it improves performance, reduces memory usage, and works 
 Example: document.getElementById("parent-container").addEventListener("click",function(e){ if(e.target.classList.contains("btn-button")){ let btnButton = e.target; console.log(btnButton) } });
 
 
-# 5. What is the difference between preventDefault() and stopPropagation() methods?
+## 5. What is the difference between preventDefault() and stopPropagation() methods?
 preventDefault() : We can stop the default behavior of an element using preventDefault(). Example: document.querySelector("form").addEventListener("submit", function(e) { e.preventDefault(); });
 
 stopPropagation(): We can stop the event from bubbling or capturing to parent elements using stopPropagation(). Example: document.getElementById("child").addEventListener("click", function(e) { e.stopPropagation(); });
