@@ -15,7 +15,7 @@ querySelectorAll("selector"): Returns all matching elements (NodeList)
 
 ⮕ Step 2: then I will create new new element Ex: let newElement = document.createElement("div")
 
-⮕ Step 3: then I will create innerHTML in newElement Ex: newElement.innerHTML = ```html <div><h1>This is new text</h1></div>
+⮕ Step 3: then I will create innerHTML in newElement Ex: `newElement.innerHTML = "<div><h1>This is new text</h1></div>";`
 
 ⮕ Step 4: I will append this newElement into the container Ex: container.append(newElement)
 
