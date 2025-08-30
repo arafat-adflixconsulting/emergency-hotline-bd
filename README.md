@@ -12,11 +12,11 @@ querySelectorAll("selector"): Returns all matching elements (NodeList)
 # 2. How do you create and insert a new element into the DOM?
 Step 1: I will select specific div from the DOM Ex: let container = document.getElementById("box-container");
 
-Step 2: then I will create new new element Ex: let newElement = document.createElement("div")
+Step 2: I will create new new element Ex: let newElement = document.createElement("div")
 
-Step 3: then I will create innerHTML in newElement Ex: newElement.innerHTML = <div><h1>This is new text</h1></div>
+Step 3: I will create innerHTML in newElement Ex: newElement.innerHTML = <div><h1>This is new text</h1></div>
 
-Step 4: then I will append this newElement into the container Ex: container.append(newElement)
+Step 4: I will append this newElement into the container Ex: container.append(newElement)
 
 # 3. What is Event Bubbling and how does it work?
 When we click a button, the event first triggers on the current element, then it goes up to the parent, then to the upper parent, and so on. This process is called event bubbling (event propagation).
