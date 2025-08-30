@@ -11,10 +11,7 @@ querySelectorAll("selector"): Returns all matching elements (NodeList)
 
 ## 2. How do you create and insert a new element into the DOM?
 
-**Step 1:** I will select a specific div from the DOM  
-```javascript
-let container = document.getElementById("box-container");
-
+⮕ Step 1: I will select a specific div from the DOM Ex: let container = document.getElementById("box-container");
 
 ⮕ Step 2: then I will create new new element Ex: let newElement = document.createElement("div")
 
