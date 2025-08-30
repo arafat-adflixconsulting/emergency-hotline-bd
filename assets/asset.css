@@ -56,7 +56,7 @@ button,
   .single-card .btn-copy,
   .single-card .btn-call {
     width: 100%; /* full width */
-    margin-bottom: 8px; /* button er moddhe gap */
+    margin-bottom: 8px; /* gap added between button */
     padding: 10px; /* responsive padding */
     font-size: 14px; /* responsive font size */
   }
