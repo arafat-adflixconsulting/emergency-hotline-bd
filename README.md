@@ -14,9 +14,9 @@ Step 1: I will select specific div from the DOM Ex: let container = document.get
 
 Step 2: then I will create new new element Ex: let newElement = document.createElement("div")
 
-Step 3: then I will create innerHTML in newElement Ex: newElement.innerHTML = <div><h1>This is new text</h1></div>
+Step 3: I will create innerHTML in newElement Ex: newElement.innerHTML = <div><h1>This is new text</h1></div> 
 
-Step 4: then I will append this newElement into the container Ex: container.append(newElement)
+Step 4: I will append this newElement into the container Ex: container.append(newElement)
 
 
 # 3. What is Event Bubbling and how does it work?
